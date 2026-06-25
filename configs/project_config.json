@@ -1,0 +1,47 @@
+{
+  "india_bounds": {
+    "lat_min": 6.0,
+    "lat_max": 38.0,
+    "lon_min": 68.0,
+    "lon_max": 98.0
+  },
+  "ctbt": {
+    "interval_minutes": 30,
+    "timezone": "UTC",
+    "metadata_file": "data/metadata/metadata.csv",
+    "georef_bounds": {
+      "lat_min": 6.0,
+      "lat_max": 38.0,
+      "lon_min": 68.0,
+      "lon_max": 98.0
+    }
+  },
+  "lightning_source": "synthetic",
+  "lightning_sources": {
+    "synthetic": "data/processed/lightning",
+    "nasa": "data/processed/lightning",
+    "ildn": "data/raw/ildn",
+    "nrsc": "data/raw/nrsc"
+  },
+  "paths": {
+    "raw_lis_otd": "data/raw/lis_otd",
+    "raw_lis_events": "data/raw/lis_events",
+    "raw_nasa_power": "data/raw/nasa_power",
+    "raw_open_meteo": "data/raw/open_meteo",
+    "raw_noaa_isd": "data/raw/noaa_isd",
+    "raw_ildn": "data/raw/ildn",
+    "raw_nrsc": "data/raw/nrsc",
+    "raw_archive": "data/raw/archive",
+    "raw_archive_nasa_lis": "data/raw/archive/nasa_lis",
+    "processed_climatology": "data/processed/climatology",
+    "processed_lightning": "data/processed/lightning",
+    "processed_training": "data/processed/training",
+    "processed_weather": "data/processed/weather",
+    "ctbt": "data/ctbt",
+    "overlays": "data/overlays",
+    "animations": "data/animations",
+    "metadata": "data/metadata",
+    "logs": "data/logs",
+    "models": "models"
+  }
+}

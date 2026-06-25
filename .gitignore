@@ -1,0 +1,66 @@
+# Python caches and virtual environments
+__pycache__/
+*.py[cod]
+*$py.class
+.Python
+.venv/
+venv/
+env/
+ENV/
+.env
+.env.*
+
+# Tooling caches
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+
+# OS/editor files
+.DS_Store
+Thumbs.db
+desktop.ini
+.idea/
+.vscode/
+
+# Logs and transient reports
+*.log
+data/logs/
+
+# Generated visualization outputs
+data/animations/
+data/overlays/images/
+data/overlays/csv/
+data/overlays/*.png
+*.gif
+*.mp4
+*.avi
+
+# Large/raw/archive data kept locally but not committed
+data/ctbt/
+data/raw/
+data/backups/
+*.zip
+*.nc
+*.hdf
+*.h5
+
+# Legacy generated folders
+data/ildn/
+
+# Model training scratch/checkpoints
+checkpoints/
+runs/
+outputs/
+cache/
+temp/
+tmp/
+
+# Keep compact processed development dataset and model artifacts tracked.
+!data/
+!data/processed/
+!data/processed/lightning/
+!data/processed/training/
+!data/processed/metadata/
+!data/metadata/
+!models/
